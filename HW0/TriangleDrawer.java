@@ -4,7 +4,7 @@ public class TriangleDrawer{
 		while (i < N){
 			int j = i + 1;
 			while(j != 0){
-			    System.out.print("*");
+				System.out.print("*");
 					j--;
 			}
 			System.out.print("\n");
@@ -13,6 +13,6 @@ public class TriangleDrawer{
 	}
 
 	public static void main(String[] args){
-	    drawTriangle(10);
+		drawTriangle(10);
 	}
 }
